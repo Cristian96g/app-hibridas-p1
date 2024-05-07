@@ -1,0 +1,78 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #293737;
+    color: white;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr auto;
+}
+
+.title{
+    font-size: 32px;
+}
+
+.description{
+    margin-bottom: 1rem;
+    max-width: 800px;
+}
+.description h2, .description p{
+    margin: 0;
+}
+
+.description h2{
+    margin-bottom: .5rem;
+}
+main{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.section-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #3a4747;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card h2{
+    margin: .3rem 0;
+}
+
+.card ul li{
+    margin: .3rem 0;
+}
+
+.footer {
+    background: #aaa589;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .text {
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }

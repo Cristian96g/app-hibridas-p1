@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Lugares Turísticos</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Bienvenido a la API de Lugares Turísticos</h1>
+
+        <div class="description">
+            <h2>Descripción</h2>
+            <p>Esta API proporciona acceso a información sobre diferentes lugares turísticos. Puedes encontrar una
+                variedad de lugares, incluidas ciudades, sitios históricos, playas, montañas y más.</p>
+        </div>
+
+        <div class="section-card">
+            <div class="card funcionalidades">
+                <h2>Funcionalidades</h2>
+                <ul>
+                    <li>Obtener una lista de lugares turísticos</li>
+                    <li>Filtrar lugares por tipo (ciudad, sitio histórico, etc.)</li>
+                    <li>Ver las puntuaciones de los lugares</li>
+                    <li>Ordenar los lugares por puntuación</li>
+                    <li>Realizar operaciones CRUD en lugares y países</li>
+                </ul>
+            </div>
+
+            <div class="card endpoints">
+                <h2>Endpoints Disponibles</h2>
+                <ul>
+                    <li>GET /lugares - Obtener todos los lugares</li>
+                    <li>GET /lugares/:id - Obtener información detallada de un lugar específico</li>
+                    <li>GET /lugares/tipo/:tipo - Filtrar lugares por tipo</li>
+                    <li>GET /lugares/ordenar/:orden - Ordenar lugares por puntuación</li>
+                    <li>POST /lugares - Crear un nuevo lugar</li>
+                    <li>PUT /lugares/:id - Actualizar un lugar existente</li>
+                    <li>DELETE /lugares/:id - Eliminar un lugar existente</li>
+                    <li>GET /paises - Obtener todos los países</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="text">Cristian Gómez</p>
+        <p class="text">Materia: Aplicaciones Hibridas</p>
+        <p class="text">Profesor: Camila Marcos Galban</p>
+        <p class="text">Comisión: DWN4AV</p>
+        <p class="text">Año: 2024</p>
+    </footer>
+</body>
+
+</html>
